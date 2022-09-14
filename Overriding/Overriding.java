@@ -9,30 +9,41 @@ class Animal {
     String type;
 
     // Our virtual function. We don't use keywords in Java
-    public String getType() { return type; }
+    public String getType() {
+        return type;
+    }
 
-    public Animal() { type = "Animal"; } 
+    public Animal() {
+        type = "Animal";
+    }
 }
 
 class Dog extends Animal {
 
     // Our virtual function. We don't use keywords in Java
-    public String getType() { return type; }
+    public String getType() {
+        return type;
+    }
 
-    public Dog() { type = "Dog"; } 
+    public Dog() {
+        type = "Dog";
+    }
 }
 
 class Cat extends Animal {
 
     // Our virtual function. We don't use keywords in Java
-    public String getType() { return type; }
+    public String getType() {
+        return type;
+    }
 
-    public Cat() { type = "Cat"; } 
+    public Cat() {
+        type = "Cat";
+    }
 }
 
-public class Virtual {
-    public static void main(String [] args)
-    {
+public class Overriding {
+    public static void main(String[] args) {
         Animal animal = new Animal();
         Animal dog = new Dog();
         Animal cat = new Cat();
