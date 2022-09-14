@@ -71,7 +71,12 @@ int main(void)
 
     // prints "Animal Animal Animal"
     for (Animal* animal : animalArr)
+    {
         cout << animal->getType2() << " ";
+        
+        // Get rid of that space!
+        delete animal;
+    }
     cout << endl;
 
     return 0;
