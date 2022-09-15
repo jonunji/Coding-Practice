@@ -13,3 +13,8 @@ This is the structure of our classes:
     * Cat
 
 We want the Dog and Cat to run their respective functions, but still, if we have an Animal, still to run their respective function. But we also want to use the same function name for simplicity for the function caller.
+
+Additional Readings:
+https://www.geeksforgeeks.org/function-overloading-vs-function-overriding-in-cpp/
+https://www.geeksforgeeks.org/overriding-in-java/
+https://www.geeksforgeeks.org/method-overriding-in-python/
