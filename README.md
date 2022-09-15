@@ -5,7 +5,7 @@ Here are all the topics so far:
 - [x] Overriding
 - [x] Linked Lists
 - [ ] Skip Lists
-- [ ] Stacks
+- [x] Stacks
 - [ ] Queues
 - [ ] Heaps
 - [ ] Sorting Algorithms
