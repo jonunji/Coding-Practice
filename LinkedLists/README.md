@@ -15,5 +15,5 @@ Compare to an array, which would look something like this:
 
 [1, 2, 3, 4]
 
-Additional Readings:
+### Additional Readings:
 https://www.geeksforgeeks.org/data-structures/linked-list/
